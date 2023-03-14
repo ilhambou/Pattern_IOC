@@ -9,6 +9,6 @@
         <property name="CreditDao" ref="dao"></property>
     </bean>
     <bean id="controleur" class="presentation.IB_SalaireControleur">
-        <property name="creditMetier" ref="Metier"></property>
+        <property name="creditMetier" ref="metier"></property>
     </bean>
 </beans>

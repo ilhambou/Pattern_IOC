@@ -150,7 +150,7 @@ public class IB_Simulateur {
     }
 
     public static void main(String[] args) throws Exception{
-           test3();
+           test4();
 
     }
 
