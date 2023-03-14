@@ -21,11 +21,6 @@ public class IB_Simulateur {
         static Scanner clavier = new Scanner(System.in);
         static IB_IControleur salaireControleur;//test2
 
-
-
-
-
-
         public static void test2() throws Exception
         {
             String daoClass;
@@ -115,7 +110,7 @@ public class IB_Simulateur {
                         }
                         else
                         {
-                            System.out.println("entrerr non valide");
+                            System.out.println("entrer non valide");
                         }
                     }
                     Long id = Long.parseLong(input);
